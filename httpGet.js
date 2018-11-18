@@ -5,7 +5,7 @@ const https = require('https');
 module.exports = async function getData(url, writeStream) {
   https
     .get(url, async (res) => {
-      if (!res.statusCode === 200) return;
+      if (res.statusCode !== 200) return;
       let body = '';
       try {
         for await (const chunk of res) {
