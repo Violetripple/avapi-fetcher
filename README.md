@@ -1,4 +1,4 @@
-# Avgle API Practice
+# A.v.g.l.e API Practice
 
 ## Command line usage
 
