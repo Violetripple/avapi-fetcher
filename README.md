@@ -34,6 +34,7 @@ To use this command line(or as well as contribution guide)
 - [ ] CI/CD integration.
 - [ ] improve command line supports.
 - [ ] output all search results in one or multiple JSON files specified by types.
+- [ ] visual frontend support
 - [ ] others, optionally eslint, prettier configurations, docker support.
 
 ## Enjoy your time:)
