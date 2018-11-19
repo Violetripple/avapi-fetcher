@@ -1,5 +1,5 @@
 'use strict';
-// require('node');
+
 const https = require('https');
 
 module.exports = async function getData(url, writeStream) {
