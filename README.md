@@ -32,7 +32,7 @@ To use this command line(or as well as contribution guide)
 - [ ] implement videos listing by customizable setting multiple query parameters.
 - [ ] tests integration.
 - [ ] CI/CD integration.
-- [ ] improve command line supports.
+- [ ] improve command line supports.
 - [ ] output all search results in one or multiple JSON files specified by types.
 - [ ] visual frontend support
 - [ ] others, optionally eslint, prettier configurations, docker support.
