@@ -17,7 +17,7 @@ Generally speaking, there are four types of searching: `all, search, jav, video`
 
 To use this command line(or as well as contribution guide)
 
-- brew install latest version of **Node** that supports _Async Iterator_, additionally **yarn** as well
+- brew install latest version of **Node**(>= 10) that supports _Async Iterator_, additionally **yarn** as well
 - clone this git repo to local workspace
 - input command lines above under this cloned repo root directory with **yarn** or **npm**
 
