@@ -23,7 +23,7 @@ module.exports = pathArr.map(async (p) => {
 
   let url = `${commonUrl}/${p}`;
 
-  let dataPath = path.resolve(__dirname, `./data/${p}.json`);
+  let dataPath = path.resolve(__dirname, `./data/${p}`);
   let writeStream = fs.createWriteStream(dataPath);
 
   if (p === pathArr[1]) {
@@ -32,5 +32,5 @@ module.exports = pathArr.map(async (p) => {
     url += `/${page}?${videosQuery}`;
   }
 
-  await getData(url, writeStream);
+  await getData(url, writeStream, dataPath);
 });
