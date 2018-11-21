@@ -19,7 +19,6 @@ module.exports = async function getData(url, writeStream, dataPath) {
           if (err) throw err;
         });
         console.dir(JSON.parse(body));
-        body = null;
       } catch (error) {
         console.error('Response stream error', error);
       }
