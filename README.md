@@ -18,36 +18,32 @@ To use this command line(or as well as contribution guide)
 
 Generally speaking, there are four types of searching: `all, search, jav, video`, you can use these type plus value to search. The raw JSON results will be written into a new json file in the _data_ folder Node.js automatically created as wel as output to console.
 
-To get all data:
+To get **all data**:
 
 ```bash
-  $ yarn start all
-
-    JSON raw results output...
+$ yarn start all
+JSON raw results output...
 ```
 
-For common search:
+For **common search**:
 
 ```bash
-  $ yarn start search <query>
-
-    JSON raw results output...
+$ yarn start search <query>
+JSON raw results output...
 ```
 
-To search by jav id:
+To search by **~~jav~~ id**:
 
 ```bash
-  $ yarn start jav <jav id>
-
-    JSON raw results output...
+$ yarn start jav <jav id>
+JSON raw results output...
 ```
 
-To search by database video id:
+To search by database **video id**:
 
 ```bash
-  $ yarn start video <video id>
-
-    JSON raw results output...
+$ yarn start video <video id>
+JSON raw results output...
 ```
 
 ## Todoist
