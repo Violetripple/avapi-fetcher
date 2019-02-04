@@ -18,7 +18,10 @@ module.exports = async function getData(url, writeStream, dataPath) {
         fs.rename(dataPath, dataPath + `.${ext}`, (err) => {
           if (err) throw err;
         });
-        console.dir(JSON.parse(body));
+        console.dir(JSON.parse(body), {
+          depth: Number.MAX_VALUE,
+          colors: true,
+        });
       } catch (error) {
         console.error('Response stream error', error);
       }
